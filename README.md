@@ -19,10 +19,14 @@ Recent researches have focused on advanced Question Answering (QA) techniques ov
 
 In this work, we have restricted the queries to queries with just one relation, called Single Relation Type-based Queries (SRTQs) such as
 full sentence query 
+ 
  `Give me all the laws regulating sustainability criteria  for production and use of biofuel`. 
+ 
 An abbreviated version of SRTQ can be expressed with keywords, i.e. laws Biofuel. 
 This example of SRTQ can be rewritten as an equivalent conjunctive formal logic expression 
+
 `?x ← (?x, is, Law) ∩ (?x, ?relation, Biofuel)` 
+
 where ontology class
 Law, and instance Biofuel are restrictions on the variable x.
 ![alt text](https://climateradardata.blob.core.windows.net/temp/Architecture.jpg)
