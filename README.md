@@ -5,6 +5,8 @@ their information needs using Natural Language without being aware of the hetero
 Recent researches have focused on advanced Question Answering techniques over Knowledge Graphs by translating Natural Language queries into formal SPARQL queries.
 For this hackathon we have created an Azure Search engine based on the legislation documents (legislations, laws and events) 
 and added Cognitive Skills upon it (extraction of Names, Locations, Entities). 
+
+
 This allows to perform full-text research by expressing a request in a natural language.
 For instance, "What events are the laws NNN focusing on?"
 The next step is to extend the understanding of the request by adding the Knowledge Graph, for a better query mapping.
@@ -13,9 +15,14 @@ The ideal way for casual users to query from KGs is using Natural Language Inter
 without being aware of the heterogeneous LOD vocabulary. The research in NLI for KGs has
 its roots in the application of traditional keyword-based information retrieval techniques to indexed RDF data such as the works in semantic search.
 Recent researches have focused on advanced Question Answering (QA) techniques over KGs by translating NL queries into formal SPARQL queries. 
+
+
 In this work, we have restricted the queries to queries with just one relation, called Single Relation Type-based Queries (SRTQs) such as
-full sentence query Give me all the laws regulating sustainability criteria  for production and use of biofuel. 
+full sentence query 
+ `Give me all the laws regulating sustainability criteria  for production and use of biofuel`. 
 An abbreviated version of SRTQ can be expressed with keywords, i.e. laws Biofuel. 
-This example of SRTQ can be rewritten as an equivalent conjunctive formal logic expression ?x ← (?x, is, Law) ∩ (?x, ?relation, Biofuel) where ontology class
+This example of SRTQ can be rewritten as an equivalent conjunctive formal logic expression 
+`?x ← (?x, is, Law) ∩ (?x, ?relation, Biofuel)` 
+where ontology class
 Law, and instance Biofuel are restrictions on the variable x.
 ![alt text](https://climateradardata.blob.core.windows.net/temp/Architecture.jpg)
