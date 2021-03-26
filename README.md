@@ -1,4 +1,4 @@
-# ClimatePolicyChallenge
+# Climate Policy Challenge
 Increasing amounts of structured data are published as Knowledge Bases. Thus we change the web from a web of documents into a web of entities. 
 The ideal way for our users to query from Climate Documents is using Natural Language Interfaces, where users can express 
 their information needs using Natural Language without being aware of the heterogeneous vocabulary of these documents.
