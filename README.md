@@ -12,9 +12,10 @@ Furthermore, more researches will be followed in refining the semantic similarit
 The ideal way for casual users to query from KGs is using Natural Language Interfaces (NLI), where users can express their information needs using Natural Language (NL) 
 without being aware of the heterogeneous LOD vocabulary. The research in NLI for KGs has
 its roots in the application of traditional keyword-based information retrieval techniques to indexed RDF data such as the works in semantic search.
-Recent researches have focused on advanced Question Answering (QA) techniques over KGs by translating NL queries into formal SPARQL queries. 
+Recent researches have focused on advanced Question Answering (QA) techniques over KGs by translating NL queries into formal SPARQL queries. 
 In this work, we have restricted the queries to queries with just one relation, called Single Relation Type-based Queries (SRTQs) such as
-full sentence query Give me all the universities located in Spain. An abbreviated version of SRTQ can be expressed with keywords, i.e. universities Spain. 
-This example of SRTQ can be rewritten as an equivalent conjunctive formal logic expression ?x ← (?x, is, University) ∩ (?x, ?relation, Spain) where ontology class
-University, and instance Spain are restrictions on the variable x.
+full sentence query Give me all the laws regulating sustainability criteria  for production and use of biofuel. 
+An abbreviated version of SRTQ can be expressed with keywords, i.e. laws Biofuel. 
+This example of SRTQ can be rewritten as an equivalent conjunctive formal logic expression ?x ← (?x, is, Law) ∩ (?x, ?relation, Biofuel) where ontology class
+Law, and instance Biofuel are restrictions on the variable x.
 ![alt text](https://climateradardata.blob.core.windows.net/temp/Architecture.jpg)
